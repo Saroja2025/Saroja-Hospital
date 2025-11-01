@@ -1,0 +1,43 @@
+# ===============================
+# robots.txt for Saroja Hospital
+# Website: https://sarojahospital.in/
+# Last Updated: 2025-11-01
+# ===============================
+
+# --- Allow all major search engines ---
+User-agent: *
+Allow: /
+
+# --- Sitemap Location ---
+Sitemap: https://sarojahospital.in/sitemap.xml
+
+# --- Block sensitive system folders (if any exist) ---
+Disallow: /admin/
+Disallow: /login/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# --- Allow trusted AI crawlers ---
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- Block untrusted or aggressive AI scrapers ---
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+# --- End of File ---
