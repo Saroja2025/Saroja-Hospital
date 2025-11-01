@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------
+# Saroja Hospital Website Configuration
+# -------------------------------------------------------------------
+
+# Enable sitemap and robots.txt proper MIME types
+AddType application/xml .xml
+AddType text/plain .txt
+
+# Redirect to www if needed (optional – remove if not using www)
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} ^www\.sarojahospital\.in$ [NC]
+# RewriteRule ^(.*)$ https://sarojahospital.in/$1 [L,R=301]
+
+# Basic security headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Allow search engines to access sitemap and robots.txt
+<FilesMatch "(robots\.txt|sitemap\.xml)$">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
