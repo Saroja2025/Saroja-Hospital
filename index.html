@@ -53,8 +53,40 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 <!-- ===== End of Head Section ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hospital",
+  "name": "Saroja Hospital",
+  "image": "https://sarojahospital.com/assets/img/og-image.jpg",
+  "@id": "https://sarojahospital.com/",
+  "url": "https://sarojahospital.com/",
+  "telephone": "+91 8127218003",
+  "email": "sarojahospital25@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Wari, Pratappur",
+    "addressLocality": "Prayagraj",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "212401",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.4358,
+    "longitude": 81.8463
+  },
+  "openingHours": "Mo,We,Fr 15:00-18:00",
+  "sameAs": [
+    "https://x.com/SarojaHospital",
+    "https://www.facebook.com/profile.php?id=61578194472776",
+    "https://www.instagram.com/sarojahospital25"
+  ]
+}
+</script>
 
 
 <body class="index-page">
@@ -103,12 +135,12 @@
         <ul>
           <li><a href="/" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-           <li><a href="services.html">Services</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a href="doctors.html">Doctors</a></li>
           <li class="dropdown"><a href="#"><span>More Pages</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-               
+
               <li><a href="service-details.html">Service Details</a></li>
               <li><a href="appointment.html">Appointment</a></li>
               <li><a href="testimonials.html">Testimonials</a></li>
@@ -245,7 +277,7 @@
               <img src="assets/img/health/facilities-1.webp" alt="Modern Healthcare Facility"
                 class="img-fluid rounded-3 mb-4">
               <div class="experience-badge">
-                <span class="years">25+</span>
+                <span class="years">5+</span>
                 <span class="text">Years of Excellence</span>
               </div>
             </div>
@@ -441,7 +473,7 @@
           </div>
 
           <!-- 7. Liver & Diabetes Management -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="department-card">
               <div class="department-image">
                 <img src="assets/img/services/Liver & Diabetes Management.png"
@@ -460,14 +492,11 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
     </section>
-    <!-- /Featured Departments Section -->
-
-    <!-- Find A Doctor Section -->
     <section id="find-a-doctor" class="find-a-doctor section">
 
       <!-- Section Title -->
@@ -478,75 +507,17 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <!-- <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-12">
-            <div class="search-container">
-              <form class="search-form" action="forms/doctor-search.php" method="get">
-                <div class="row g-3">
-                  <div class="col-md-4">
-                    <input type="text" class="form-control" name="doctor_name" placeholder="Doctor name or keyword">
-                  </div>
-                  <div class="col-md-4">
-                    <select class="form-select" name="specialty" id="specialty-select">
-                      <option value="">Select Specialty</option>
-                      <option value="cardiology">Cardiology</option>
-                      <option value="neurology">Neurology</option>
-                      <option value="orthopedics">Orthopedics</option>
-                      <option value="pediatrics">Pediatrics</option>
-                      <option value="dermatology">Dermatology</option>
-                      <option value="oncology">Oncology</option>
-                      <option value="surgery">Surgery</option>
-                      <option value="emergency">Emergency Medicine</option>
-                    </select>
-                  </div>
-                  <div class="col-md-4">
-                    <button type="submit" class="btn btn-primary w-100">
-                      <i class="bi bi-search me-2"></i>Search Doctor
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div> -->
-
         <div class="row" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
-                <img src="assets/img/health/staff-3.webp" alt="Dr. Sarah Mitchell" class="img-fluid">
-                <div class="availability-badge online">Available</div>
-              </div>
-              <div class="doctor-info">
-                <h5>Dr. Sarah Mitchell</h5>
-                <p class="specialty">Cardiology</p>
-                <p class="experience">15+ years experience</p>
-                <div class="rating">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <span class="rating-text">(4.9)</span>
-                </div>
-                <div class="appointment-actions">
-                  <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+                <img src="assets/img/health/prabhakar.jpg" alt="Dr. Prabhakar Upadhyay" class="img-fluid">
 
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-7.webp" alt="Dr. Michael Rodriguez" class="img-fluid">
-                <div class="availability-badge busy">In Surgery</div>
               </div>
               <div class="doctor-info">
-                <h5>Dr. Michael Rodriguez</h5>
-                <p class="specialty">Neurology</p>
-                <p class="experience">12+ years experience</p>
+                <h5>Dr. Prabhakar Upadhyay</h5>
+                <p class="specialty">General & Laparoscopic Surgeon, Endoscopist</p>
+                <p class="experience">5+ years experience</p>
                 <div class="rating">
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
@@ -561,18 +532,16 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
-
+          </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
-                <img src="assets/img/health/staff-1.webp" alt="Dr. Emily Chen" class="img-fluid">
-                <div class="availability-badge online">Available</div>
+                <img src="assets/img/health/nikita.jpg" alt="Dr. Nikita Tiwari" class="img-fluid">
               </div>
               <div class="doctor-info">
-                <h5>Dr. Emily Chen</h5>
-                <p class="specialty">Pediatrics</p>
-                <p class="experience">8+ years experience</p>
+                <h5>Dr. Nikita Tiwari</h5>
+                <p class="specialty">Physician & Chest Specialist</p>
+                <p class="experience">3+ years experience</p>
                 <div class="rating">
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
@@ -587,70 +556,16 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-9.webp" alt="Dr. James Thompson" class="img-fluid">
-                <div class="availability-badge offline">Next: Tomorrow 9AM</div>
-              </div>
-              <div class="doctor-info">
-                <h5>Dr. James Thompson</h5>
-                <p class="specialty">Orthopedics</p>
-                <p class="experience">20+ years experience</p>
-                <div class="rating">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-half"></i>
-                  <span class="rating-text">(4.8)</span>
-                </div>
-                <div class="appointment-actions">
-                  <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-5.webp" alt="Dr. Lisa Anderson" class="img-fluid">
-                <div class="availability-badge online">Available</div>
-              </div>
-              <div class="doctor-info">
-                <h5>Dr. Lisa Anderson</h5>
-                <p class="specialty">Dermatology</p>
-                <p class="experience">10+ years experience</p>
-                <div class="rating">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star"></i>
-                  <span class="rating-text">(4.6)</span>
-                </div>
-                <div class="appointment-actions">
-                  <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
-                  <a href="#" class="btn btn-primary btn-sm">Book Appointment</a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
-
+          </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
               <div class="doctor-image">
                 <img src="assets/img/health/staff-12.webp" alt="Dr. Robert Kim" class="img-fluid">
-                <div class="availability-badge online">Available</div>
               </div>
               <div class="doctor-info">
                 <h5>Dr. Robert Kim</h5>
                 <p class="specialty">Oncology</p>
-                <p class="experience">18+ years experience</p>
+                <p class="experience">2+ years experience</p>
                 <div class="rating">
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
@@ -665,15 +580,13 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Find A Doctor Section -->
-
-    <!-- Call To Action Section -->
+    </section>
     <section id="call-to-action" class="call-to-action section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -763,9 +676,8 @@
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section>
   </main>
-
   <footer id="footer" class="footer position-relative light-background">
     <div class="container footer-top">
       <div class="row gy-4">
@@ -794,7 +706,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Our Services</a></li>
-             <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
@@ -828,15 +740,9 @@
 
   </footer>
 
-
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
   <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
