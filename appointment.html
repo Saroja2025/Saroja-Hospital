@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Basic Meta -->
   <meta charset="utf-8">
@@ -70,9 +71,9 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="about.html">About</a></li> 
+          <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="doctors.html">Doctors</a></li> 
+          <li><a href="doctors.html">Doctors</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -90,21 +91,26 @@
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Category</a></li>
-            <li class="breadcrumb-item active current">Appointment</li>
+            <li class="breadcrumb-item">
+              <a href="index.html"><i class="bi bi-house"></i> Home</a>
+            </li>
+            <li class="breadcrumb-item active current">Book Appointment</li>
           </ol>
         </nav>
       </div>
 
       <div class="title-wrapper">
-        <h1>Appointment</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-          pulvinar dapibus leo.</p>
+        <h1>Book an Appointment</h1>
+        <p>
+          Schedule your consultation with experienced doctors at Saroja Hospital.
+          Get expert medical care in Endoscopy, Laparoscopic Surgery, Chest &
+          Respiratory Diseases, Diabetes and more.
+        </p>
       </div>
-    </div><!-- End Page Title -->
+    </div>
+    <!-- End Page Title -->
 
-    <!-- Appointmnet Section -->
+    <!-- Appointment Section -->
     <section id="appointmnet" class="appointmnet section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -114,20 +120,24 @@
           <!-- Appointment Info -->
           <div class="col-lg-6">
             <div class="appointment-info">
-              <h3>Quick &amp; Easy Online Booking</h3>
-              <p class="mb-4">Book your appointment in just a few simple steps. Our healthcare professionals are ready
-                to provide you with the best medical care tailored to your needs.</p>
+              <h3>Quick & Easy Appointment Booking</h3>
+              <p class="mb-4">
+                Book your appointment with Saroja Hospital in just a few simple steps.
+                Our experienced doctors ensure accurate diagnosis, compassionate care,
+                and effective treatment tailored to your health needs.
+              </p>
 
               <div class="info-items">
+
                 <div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon-wrapper me-3">
                     <i class="bi bi-calendar-check"></i>
                   </div>
                   <div>
                     <h5>Flexible Scheduling</h5>
-                    <p class="mb-0">Choose from available time slots that fit your busy schedule</p>
+                    <p class="mb-0">Choose from available consultation slots</p>
                   </div>
-                </div><!-- End Info Item -->
+                </div>
 
                 <div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="250">
                   <div class="icon-wrapper me-3">
@@ -135,9 +145,9 @@
                   </div>
                   <div>
                     <h5>Quick Response</h5>
-                    <p class="mb-0">Get confirmation within 15 minutes of submitting your request</p>
+                    <p class="mb-0">Our team will contact you shortly after submission</p>
                   </div>
-                </div><!-- End Info Item -->
+                </div>
 
                 <div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="300">
                   <div class="icon-wrapper me-3">
@@ -145,64 +155,70 @@
                   </div>
                   <div>
                     <h5>Expert Medical Care</h5>
-                    <p class="mb-0">Board-certified doctors and specialists at your service</p>
+                    <p class="mb-0">Experienced doctors using modern medical technology</p>
                   </div>
-                </div><!-- End Info Item -->
+                </div>
+
               </div>
 
+              <!-- Emergency Contact -->
               <div class="emergency-contact mt-4" data-aos="fade-up" data-aos-delay="350">
                 <div class="emergency-card p-3">
-                  <h6 class="mb-2"><i class="bi bi-telephone-fill me-2"></i>Emergency Hotline</h6>
-                  <p class="mb-0">Call <strong>+1 (555) 911-4567</strong> for urgent medical assistance</p>
+                  <h6 class="mb-2">
+                    <i class="bi bi-telephone-fill me-2"></i>Emergency Hotline
+                  </h6>
+                  <p class="mb-0">
+                    Call <strong>+91 8127218003</strong> for immediate medical assistance
+                  </p>
                 </div>
               </div>
 
             </div>
-          </div><!-- End Appointment Info -->
+          </div>
+          <!-- End Appointment Info -->
 
           <!-- Appointment Form -->
           <div class="col-lg-6">
             <div class="appointment-form-wrapper" data-aos="fade-up" data-aos-delay="200">
+
               <form action="forms/appointment.php" method="post" class="appointment-form php-email-form">
                 <div class="row gy-3">
 
                   <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Full Name" required="">
+                    <input type="text" name="name" class="form-control" placeholder="Your Full Name" required>
                   </div>
 
                   <div class="col-md-6">
-                    <input type="email" name="email" class="form-control" placeholder="Your Email" required="">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                   </div>
 
                   <div class="col-md-6">
-                    <input type="tel" name="phone" class="form-control" placeholder="Your Phone Number" required="">
+                    <input type="tel" name="phone" class="form-control" placeholder="Your Phone Number" required>
                   </div>
 
                   <div class="col-md-6">
-                    <select name="department" class="form-select" required="">
+                    <select name="department" class="form-select" required>
                       <option value="">Select Department</option>
-                      <option value="cardiology">Cardiology</option>
-                      <option value="neurology">Neurology</option>
-                      <option value="orthopedics">Orthopedics</option>
-                      <option value="pediatrics">Pediatrics</option>
-                      <option value="dermatology">Dermatology</option>
+                      <option value="endoscopy">Endoscopy & Colonoscopy</option>
+                      <option value="laparoscopic">Laparoscopic & General Surgery</option>
+                      <option value="stones">Stones, Piles, Hernia & Fissure</option>
+                      <option value="chest">Chest, TB, UTI, Allergy & Asthma</option>
+                      <option value="cardio">Heart, Thyroid & Blood Pressure</option>
+                      <option value="diabetes">Liver & Diabetes Management</option>
                       <option value="general">General Medicine</option>
                     </select>
                   </div>
 
                   <div class="col-md-6">
-                    <input type="date" name="date" class="form-control" required="">
+                    <input type="date" name="date" class="form-control" required>
                   </div>
 
                   <div class="col-md-6">
-                    <select name="doctor" class="form-select" required="">
+                    <select name="doctor" class="form-select" required>
                       <option value="">Select Doctor</option>
-                      <option value="dr-johnson">Dr. Sarah Johnson</option>
-                      <option value="dr-martinez">Dr. Michael Martinez</option>
-                      <option value="dr-chen">Dr. Lisa Chen</option>
-                      <option value="dr-patel">Dr. Raj Patel</option>
-                      <option value="dr-williams">Dr. Emily Williams</option>
-                      <option value="dr-thompson">Dr. David Thompson</option>
+                      <option value="dr-prabhakar">Dr. Prabhakar Upadhyay</option>
+                      <option value="dr-nikita">Dr. Nikita Tiwari</option>
+                      <option value="on-duty">On-Duty Consultant</option>
                     </select>
                   </div>
 
@@ -214,135 +230,179 @@
                   <div class="col-12">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Your appointment request has been sent successfully. We will contact you
-                      shortly!</div>
+                    <div class="sent-message">
+                      Your appointment request has been sent successfully.
+                      Our team will contact you shortly.
+                    </div>
 
                     <button type="submit" class="btn btn-appointment w-100">
                       <i class="bi bi-calendar-plus me-2"></i>Book Appointment
                     </button>
+
+                    <!-- Disclaimer -->
+                    <p class="small text-muted mt-2">
+                      Note: Appointment requests are subject to doctor availability.
+                      In case of medical emergency, please call our emergency number directly.
+                    </p>
                   </div>
 
                 </div>
               </form>
+
             </div>
-          </div><!-- End Appointment Form -->
+          </div>
+          <!-- End Appointment Form -->
 
         </div>
 
         <!-- Process Steps -->
         <div class="process-steps mt-5" data-aos="fade-up" data-aos-delay="300">
           <div class="row text-center gy-4">
+
             <div class="col-lg-3 col-md-6">
               <div class="step-item">
                 <div class="step-number">1</div>
-                <div class="step-icon">
-                  <i class="bi bi-person-fill"></i>
-                </div>
+                <div class="step-icon"><i class="bi bi-person-fill"></i></div>
                 <h5>Fill Details</h5>
-                <p>Provide your personal information and select your preferred department</p>
+                <p>Provide your personal details and select department</p>
               </div>
-            </div><!-- End Step -->
+            </div>
 
             <div class="col-lg-3 col-md-6">
               <div class="step-item">
                 <div class="step-number">2</div>
-                <div class="step-icon">
-                  <i class="bi bi-calendar-event"></i>
-                </div>
+                <div class="step-icon"><i class="bi bi-calendar-event"></i></div>
                 <h5>Choose Date</h5>
-                <p>Select your preferred date and time slot from available options</p>
+                <p>Select your preferred consultation date</p>
               </div>
-            </div><!-- End Step -->
+            </div>
 
             <div class="col-lg-3 col-md-6">
               <div class="step-item">
                 <div class="step-number">3</div>
-                <div class="step-icon">
-                  <i class="bi bi-check-circle"></i>
-                </div>
+                <div class="step-icon"><i class="bi bi-check-circle"></i></div>
                 <h5>Confirmation</h5>
-                <p>Receive instant confirmation and appointment details via email or SMS</p>
+                <p>Our team confirms your appointment via phone or SMS</p>
               </div>
-            </div><!-- End Step -->
+            </div>
 
             <div class="col-lg-3 col-md-6">
               <div class="step-item">
                 <div class="step-number">4</div>
-                <div class="step-icon">
-                  <i class="bi bi-heart-pulse"></i>
-                </div>
+                <div class="step-icon"><i class="bi bi-heart-pulse"></i></div>
                 <h5>Get Treatment</h5>
-                <p>Visit our clinic at your scheduled time and receive quality healthcare</p>
+                <p>Visit the hospital and receive quality medical care</p>
               </div>
-            </div><!-- End Step -->
+            </div>
 
           </div>
-        </div><!-- End Process Steps -->
+        </div>
+        <!-- End Process Steps -->
 
       </div>
-
-    </section><!-- /Appointmnet Section -->
+    </section>
+    <!-- End Appointment Section -->
 
   </main>
 
+
   <footer id="footer" class="footer position-relative light-background">
+
     <div class="container footer-top">
       <div class="row gy-4">
+
+        <!-- Hospital Info -->
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">Saroja Hospital</span>
           </a>
+
           <div class="footer-contact pt-3">
-            <p>Wari, Pratappur, Prayagraj</p>
-            <p>Uttar Pradesh, India 212401</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+91 8127218003</span></p>
-            <p><strong>Email:</strong> <span>sarojahospital25@gmail.com</span></p>
+            <p>
+              Wari, Pratappur, Prayagraj<br>
+              Uttar Pradesh, India – 212401
+            </p>
+
+            <p class="mt-3">
+              <strong>Phone:</strong>
+              <a href="tel:+918127218003">+91 8127218003</a>
+            </p>
+
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:sarojahospital25@gmail.com">
+                sarojahospital25@gmail.com
+              </a>
+            </p>
           </div>
+
           <div class="social-links d-flex mt-4">
-            <a href="https://x.com/SarojaHospital" target="_blank"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=61578194472776" target="_blank"><i
-                class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/sarojahospital25" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/SarojaHospital" target="_blank" rel="noopener noreferrer"
+              aria-label="Saroja Hospital Twitter">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61578194472776" target="_blank" rel="noopener noreferrer"
+              aria-label="Saroja Hospital Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/sarojahospital25" target="_blank" rel="noopener noreferrer"
+              aria-label="Saroja Hospital Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+              aria-label="Saroja Hospital LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
           </div>
         </div>
 
+        <!-- Quick Links -->
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Quick Links</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Our Services</a></li> 
+            <li><a href="doctors.html">Our Doctors</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
           </ul>
         </div>
 
+        <!-- Specialties -->
         <div class="col-lg-3 col-md-3 footer-links">
           <h4>Our Specialties</h4>
           <ul>
-            <li><a href="#">General Medicine</a></li>
-            <li><a href="#">Orthopaedics</a></li>
-            <li><a href="#">Gynaecology</a></li>
-            <li><a href="#">Paediatrics</a></li>
-            <li><a href="#">Emergency & Trauma</a></li>
+            <li><a href="services.html#general-medicine">General Medicine</a></li>
+            <li><a href="services.html#laparoscopic-surgery">Laparoscopic Surgery</a></li>
+            <li><a href="services.html#chest-care">Chest & Respiratory Care</a></li>
+            <li><a href="services.html#endoscopy">Endoscopy & Colonoscopy</a></li>
+            <li><a href="services.html#emergency-care">Emergency Care</a></li>
           </ul>
         </div>
 
+        <!-- Location Map -->
         <div class="col-xl-3 col-lg-12 col-md-7">
           <div class="footer-widget mb-30">
             <h4>Hospital Location</h4>
             <div class="map-canvas">
-              <iframe class="map" id="gmap_canvas"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3208.5410447865233!2d82.25462282679428!3d25.489538764996908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1762447943235!5m2!1sen!2sin&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+              <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3208.5410447865233!2d82.25462282679428!3d25.489538764996908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1762447943235">
+              </iframe>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 
+    <!-- Copyright -->
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Saroja Hospital</strong> <span>All Rights
-          Reserved</span></p>
+      <p>
+        © <span>Copyright</span>
+        <strong class="px-1 sitename">Saroja Hospital</strong>
+        <span>All Rights Reserved</span>
+      </p>
     </div>
 
   </footer>
